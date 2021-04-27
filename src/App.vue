@@ -1,6 +1,11 @@
 <template>
   <div id="app">
     <Navbar></Navbar>
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link> |
+      <router-link to="/login">Mi Cuenta</router-link> |
+    </div>
     <router-view/>
   </div>
 </template>
@@ -12,6 +17,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  height: 100%;
 }
 
 #nav {
@@ -25,6 +31,15 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+html{
+  height: 100%;
+  width: 100%;
+}
+body{
+  height: 100%;
+  width: 100%;
 }
 </style>
 <script>
