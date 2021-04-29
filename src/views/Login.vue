@@ -53,8 +53,9 @@
     flex-direction: column;
     align-items: center;
     color: white;
-    height: 100%;
+    height: 90%;
     font-family: "Times New Roman", Times, serif;
+    justify-content: center;
 }
 
 #Titulo{
@@ -64,9 +65,8 @@
 #form{
     background-color: #A36536;
     width: 25%;
-    height: 50%;
-    padding-top: 10px;
-    padding-bottom: 30px;
+    height: 55%;
+    padding-top: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,7 +116,7 @@
     width: 33%;
     /*outline-style: solid;
     outline-color: black;*/
-    padding: 1.5%
+    padding: 0.5%
 }
 
 #ConTi{

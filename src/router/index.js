@@ -19,9 +19,6 @@ const routes = [
     path: '/products',
     name: 'Products',
     component: () => import('../views/Products.vue')
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
   },
   {
     path: '/login',
@@ -29,17 +26,17 @@ const routes = [
     component: () => import('../views/Login.vue')
   },
   {
-    path: '/user/profile',
+    path: '/account',
     name: 'profile',
     component: () => import('../views/Perfil.vue')
   },
   {
-    path: '/user/record',
+    path: '/record',
     name: 'record',
     component: () => import('../views/Historial.vue')
   },
   {
-    path: '/user/pending',
+    path: '/pending',
     name: 'pending',
     component: () => import('../views/Pending.vue')
   }
